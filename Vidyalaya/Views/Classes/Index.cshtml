@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Vidyalaya.Models.Class>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CSubject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CStandard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CRoomNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>

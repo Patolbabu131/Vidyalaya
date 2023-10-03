@@ -1,0 +1,51 @@
+﻿@model Vidyalaya.Models.Teachers
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="modal fade" id="Teachers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New Teachers</h5>
+                <i style="font-size:24px" class="fa">&#xf00d;</i>
+                </div>
+                <div class="modal-body">
+                    <form asp-action="Create">
+                    <div class="form-group" hidden>
+                        <label asp-for="SId" class="control-label"></label>
+                        <input id="liWithID" asp-for="SId" class="form-control" value="" />
+                      
+                    </div>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="TName" class="control-label"></label>
+                            <input asp-for="TName" class="form-control" />
+                            <span asp-validation-for="TName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TSubject" class="control-label"></label>
+                            <input asp-for="TSubject" class="form-control" />
+                            <span asp-validation-for="TSubject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TStandard" class="control-label"></label>
+                            <input asp-for="TStandard" class="form-control" />
+                            <span asp-validation-for="TStandard" class="text-danger"></span>
+                        </div>
+                       <hr />
+                        <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" /> | <a asp-action="Index">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
