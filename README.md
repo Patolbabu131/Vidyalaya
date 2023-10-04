@@ -2,10 +2,12 @@
 # Vidyalaya
 This web project is a simple and user-friendly platform designed to provide comprehensive information about a school's activities, teachers, and classes.
 # Dashboard
-![image](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/c5ddc476-6694-45a9-89dc-c4c99d1f46e4)
+
+![271893098-c5ddc476-6694-45a9-89dc-c4c99d1f46e4](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/bf0dfe70-e95b-4ef5-8097-72e9dcf43540)
 
 # Create School
-![image](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/80d1be7a-153d-4b1e-9691-e394a4e7381e)
+
+![271888334-80d1be7a-153d-4b1e-9691-e394a4e7381e](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/13e45180-3e0d-4c35-9d2c-006d2d74dbf6)
 
 # Add School details like Activities, Class, Teachers
 ![image](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/02bf6077-9aed-492a-9dab-2af70812215c)
