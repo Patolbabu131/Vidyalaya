@@ -31,15 +31,15 @@ This web project is a simple and user-friendly platform designed to provide comp
 
 The details page has school details and additional details like activities, Class and teacher in different tabs 
 #(Jquarey Tabs)
-# Activity  Tab has activity list of selected school
+# Activity  Tab has activity list of current school
 ![271891771-ef5ece0b-d347-4861-be9b-515569d05cea](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/9938be11-0e68-47c8-8a23-98046f55bad9)
 
-# Class Tab has Classes list of selected school.
+# Class Tab has Classes list of current school.
 
 ![271891710-cf0f4fd2-febd-488f-851d-415bffbc3c09](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/6aaeb04c-b9a3-472a-92a1-5151e9886f7a)
 
 
-# Teacher Tab has Teachers list of selected school.
+# Teacher Tab has Teachers list of current school.
 
 
 ![271891672-28cc185c-c6a1-4244-8f10-84e8fb9d878f](https://github.com/Patolbabu131/Vidyalaya/assets/97328289/2bd0aadd-46c1-42c6-9a8b-d0f95fa8db52)
